@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# ResumAI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+Applying to different jobs posts has become a very difficult process. It is difficult to gauge the needs of recruiters who are looking at resumes.  It is also very tedious to rewrite resume each time to fit key words of companies, which has become important in order to align with the job description and stand out against competitors. This something that is lacking in the many other free platforms available, free being important as different positions in educational and professional paths require help and may not have access to personal career coaches or resources at an affordable cost.
 
-## Available Scripts
+## What it does
+Given a job description and resume users are able to gain valuable feedback on their resume and how they can make the resume a good fit for the role. It gives insights into the strengths and weaknesses of the applicant's resume in relation to the job description. It gives the resume bullet points that they should fix and how they should fix it to fit the job description. And it gives questions that a interviewer may ask based on the resume and job description.
 
-In the project directory, you can run:
+## How we built it
+We are utilizing Node.js and the OpenAI API in the backend and React for the frontend to display the results.
 
-### `npm start`
+## Challenges we ran into
+We spent a lot of time finding the correct features for our target market and seeing what wasn't already available as we needed our product to stand out. We also had difficulty getting guaranteed structured responses from the OpenAI API and had to find a workaround in the front end.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Accomplishments that we're proud of
+Our main accomplishment is that we were able to create a working product which fulfills the requirements and is able to return successful results.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What we learned
+Through this hackathon, we learned how to work with the OpenAI API, and how to use it efficiently. We also learned the importance of interacting with sponsors and competitors to see how we can improve our product.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for ResumAI
+We want to include a flashcard and self testing feature with a variety of potential interview questions to allow people to prepare for and be confident going into their job interviews. We also want to utilize the You API to search for job posting that are relevant to the user and show that in our project.
